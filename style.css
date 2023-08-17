@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    background-image: url("https://img.freepik.com/free-vector/background-wave-abstract-colorful-gradient-style_483537-2250.jpg?w=826&t=st=1692090791~exp=1692091391~hmac=6dbcdb35441b5fddff4aa88b2a230f33615c1d8ac2453be2dc4baac40a356af8");
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    flex-direction: column;
+}
+.title{
+    font-size:38px;
+    font-family:"Roboto";
+    color:whitesmoke;
+}
+
+
+#card{
+    height: 350px; 
+    display: flex;
+    background-color: lightseagreen;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    border:2px solid black;
+    margin-top:30px;
+
+}
+.box{
+    width: 300px;
+    text-align: center;
+    margin:5px;
+
+
+}
+.content{
+    border:2px solid black;
+    width:85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+.input{
+    border:none;
+    width:70%;
+    font-size: 17px;
+    padding:7 px;
+    outline:none;
+}
+.btn{
+    border: none;
+    font-size:18px;
+    padding:3px  7px;
+    border-radius: 2px;
+    color:whitesmoke;
+    cursor: pointer;
+    background-color: #080344;
+    margin-right: 0;
+
+}
